@@ -15,9 +15,7 @@ body{
     top: 0;
     z-index: 1000;
     display: flex;
-    margin-top: 8px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
   }
