@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     background-color: lightgray;
 }
+
 .navbar {
     background-color: #333;
     padding: 15px;
@@ -40,7 +41,7 @@ body{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-  }
+  } 
   
   .menu-icon {
     display: none;
@@ -97,7 +98,7 @@ body{
   font-size: 40px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: purple;
+  color: pblack;
 }
 
 .text p{

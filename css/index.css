@@ -1,5 +1,5 @@
 .landing {
-  padding: 0;
+padding: 0;
 margin: 0;
 }
 .landing .name {
@@ -51,8 +51,6 @@ height: 60vh;
 @media only screen and (max-width: 600px) {
 
 }
-
-
 
 /* 
 section2 */

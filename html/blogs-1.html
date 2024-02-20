@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+  <link rel="stylesheet" href="blog1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="https://kit.fontawesome.com/2afbe46fee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/nav.css">
+  </head>
+  <body>
+    
+    <div class="navbar" id="navbar">
+        <div class="navbar-logo">Logo</div>
+        <ul class="navbar-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>      
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="teams.html">Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon">☰</div>
+        </div><script src="../js/nav.js"></script>
+        
+        
+          <!-- Navbar (sit on top) -->
+          <div class="w3-top" >
+            <!--<div class="w3-bar w3-white w3-card" id="myNavbar">-->
+              <div class="navbar">
+               <div href="#home" class="w3-bar-item w3-button w3-wide" ></div>
+               <!-- Right-sided navbar links -->
+               <img src="images/mozz.png" alt="Table Setting" width="150px" height="38px"></a><div class="w3-right w3-hide-small">
+                 <a href="index.html" class="w3-bar-item w3-button"><i class="fas fa-eject"></i> ABOUT US</a>
+                 <a href="activity.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ACTIVITIES</a>
+                 <a href="index.html#news-card" class="w3-bar-item w3-button"><i class="fa fa-th-large" aria-hidden="true"></i> BLOG</a>
+                 <a href="schedule.html" class="w3-bar-item w3-button"><i class="fas fa-calendar-alt"></i> SCHEDULE</a>
+                 <a href="team.html" class="w3-bar-item w3-button"><i class="fas fa-users"></i> TEAM</a>
+                 <a href="contact.html" class="w3-bar-item w3-button"><i class="fas fa-id-card"></i> CONTACT US</a>
+
+               </div>
+               <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+               <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                 <i class="fa fa-bars"></i>
+               </a>
+             </div>
+           </div>
+
+           <!-- Sidebar on small screens when clicking the menu icon -->
+           <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+             <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+             <a href="activity.html" onclick="w3_close()" class="w3-bar-item w3-button">ACTIVITIES</a>
+             <a href="schedule.html" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>
+             <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+             <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+           </nav>
+
+           <div class="contents">
+            <div class="content-box">
+                <h2><b>CONTENTS</b> </h2>
+                <ul>
+                    <li><a href="#openS">What is open source?</a></li>
+                    <li><a href="#whyTo">Why to contribute to open-source?</a></li>
+                    <li><a href="#howTo">How to get started?</a></li>
+                    <li><a href="#steps">Steps to follow</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    <!-- newsletter  -->
+    <section class="newsletter1">
+        <div class="title"><b> Newsletter 1: Intro to the world of open source</b></div>
+        <p class="p1">
+            <b>D</b>id you know that a large part of the software you use every day 
+            was probably built with tools and technologies that are freely available for anyone to 
+            download, install, study, and modify? The operating system running the server that’s delivering 
+            this webpage to you, the library securing your network traffic to this website…. 
+            all of these things were built on or with the help of open-source technology!!
+        </p><br>
+        
+        <p class="p2" id="openS">
+            <br>
+            <b>Open Source</b> means that it is publicly available to use and modify.
+    
+            In simple words, we can describe an open-source project as source code that is made available to the public to view, use, modify, and distribute under a permissive license.
+    
+            As an example to explain this, let's use a classroom scenario. A teacher can share a document on a platform like Google Docs. On this platform, students can edit the document and even make copies of their own. But whenever they make edits they have to be approved by the teacher before reflecting on the document again.
+    
+            That's how open source code works: once it's been made public, and you need to add a feature or make changes, the owner has to approve the added changes and publish them for others to see.
+    
+            Most successful open-source projects are a result of contributions from people with all skill levels – and not only coding skills, but also other skills like writing, languages, and so on. Wikipedia, a platform known and used by all, is one such open-source project. 
+    
+    
+    
+            At the industry level, you’ll find mainly two types of software licenses: Open source and Proprietary/Closed source. As opposed to open source, in proprietary software, the source code is available to its developers. Users have to sign a license inhibiting them from making any changes to the software. So if a user faces any issue while using the software, they need to report it to the creator/author. Thus, the process of resolving an issue is relatively tedious. So you can see why many organizations prefer to keep their software open source.
+    
+    
+            Linux Operating System, Android, Firefox, VSCode, VLC Media Player, WordPress, etc. are all examples of open-source projects. Yes, might be shocking to you that most of the software you are using is open source and you can also contribute to modifying them.
+        </p>
+        <p class="p3" id="whyTo">
+            <br>
+            <b>Now let us move on to Why you should contribute to open-source:</b>
+    
+            <div class="list2">
+                <ol>
+                    <li>To learn and share your skills</li>
+                    <li>To add new features to a software</li>
+                    <li>To find a mentor if you need one</li>
+                    <li>To become a much better developer</li>
+                    <li>To gain a much deeper knowledge about the software that’s being used</li>
+                    <li>To build up your reputation and help grow your career</li>
+                    <li>It builds your resume by demonstrating that you can collaborate with others on code.</li>
+                    <li>It gives you practice with Git and GitHub, which is a valuable skill.</li>
+                    <li>It helps you to build relationships in the open-source community.</li>
+                    <li>It feels good to give back to a project that you use!</li>
+                    <li>Last but not least, It’s fun.</li>
+        
+        
+                </ol>
+            </div>
+    
+        </p>
+        <p class="p4" id="howTo">
+            <br>
+           <b>
+            So the question arises… How to get started?
+           </b> <br><br>
+    
+    Firstly, anyone familiar with the basics of coding and at least one programming language can start contributing to open source.
+    
+    To begin with, make sure you check out GitHub as it is one of the great places to start. GitHub is a place for people to upload their code and have it viewable by the public or privately. Public code repositories or “repos” have many features that make it easy for anyone with some basic knowledge of the software in question to contribute their efforts to make the product better in some way. Check out the trending page for a list of public code repos getting a lot of attention on any given day. 
+    
+    Click through some of the different tabs on each repo and explore around. Check out the Issues tab to see what sorts of discussions people are having about the problems they are encountering with the software and how the community has responded in discussion threads.
+        </p>
+        <p class="p5">
+            Sometimes the hardest part about getting into open source is finding a project or initiative that you can connect with or are inspired to contribute to. Here are some links that will get you started in the open-source world:
+            <div class="list3">
+                <ul>
+                    <li><a href="https://www.firsttimersonly.com/">first-timers only</a></li>
+                    <li><a href="https://github.com/firstcontributions/first-contributions">first contribution</a></li>
+                    <li><a href="https://contributor.ninja/">contributor ninja</a></li>
+                    <li><a href="https://opensourcefriday.com/">open-source friday</a></li>
+                    <li><a href="https://24pullrequests.com/">24 pull requests</a></li>
+                    <li><a href="https://github.com/larymak/Python-project-Scripts">python project scripts</a></li>
+                    <li><a href="https://habitica.com/static/front">hebatica</a></li>
+                    <li><a href="https://www.codetriage.com/">code triage</a></li>
+                </ul>
+            </div>
+        </p>
+    
+        <div class="lastp" id="steps">
+            <br>
+            <b>Now once you come across a project you would like to contribute to, you’d have to follow these steps:</b>       
+    
+            <ul>
+                <li>- Go through its documentation and connect with the mentor or project admin. Look for the issues you can work on. The process is on a first-come, first-served basis. Select an unassigned issue and ask the mentors to assign it to you.</li>
+                <li>- You will have a limited amount of time to work on this issue as per the program or community guidelines. If you get stuck somewhere or have doubts while resolving the issue, reach out to mentors or other community members.</li>
+                <li>- Once done with the issue, raise a pull request or create a git patch as per the guidelines for contributors.</li>
+                <li>- Sometimes you might fail to push a pull request because of a given amount of time. While making a pull request, conflicts might also arise. But try to resolve these conflicts and raise a pull request again.</li>
+            </ul>
+    
+            <br><br>
+    <h3>...The feeling when finally your pull request is accepted is damn amazing! And Viola! You have made a change for the community.</h3><br><br>
+    
+    
+    Once you are a part of the community, you shouldn’t stop at a single contribution. Contributing from time to time will not only increase your chances of getting selected for popular programs but also ultimately lead to the growth of the community. There are a lot of opportunities you can take advantage of and learn something new. All you need is to decide to begin and get started.
+        </div>
+    <br><br>
+        <div class="lastL">
+            <b>Now that you are all set…..Start Contributing!!!</b>
+        </div>
+    </section>
+    
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="contact.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back To Home Page</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.instagram.com/aicvs/" class="text-light"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/cummins-aicvs/mycompany/" class="text-light"><i class="fab fa-linkedin"></i></a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZfSZGZDtVjPdkFkJqCQJXMjjcqxVrGvJffFvBTRKNPGcmXMlQxctgbpgdCrfKFfjsJCHL" class="text-light"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+      <a href="https://www.twitter.com/aicvs" class="text-light"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com/channel/UCYkmq4s5ciIau6BFI97XJlA" class="text-light"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+  <script src="contact.js"></script>
+  </body>
+  <!-- scrpit -->
+  
+  
+  
+  </html>
