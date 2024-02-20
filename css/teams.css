@@ -1,6 +1,4 @@
-
-  
-  .team-lead .person1 {
+.team-lead .person1 {
     /* border: 1px solid; */
     display: flex;
     flex-direction: column;
