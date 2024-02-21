@@ -29,7 +29,7 @@
 
 .events-page .part1 h3 {
     font-size: 34px;
-    color: #fff7e7;
+    color: black;
 }
 
 
@@ -46,7 +46,6 @@
     overflow: hidden;
     height: 40vh;
     width: 100%;
-    /* background-color: grey; */
 
 }
 
@@ -101,7 +100,7 @@
     width: initial;
     height: initial;
     font-size: 3rem;
-    color: blue;
+    color: black;
     display: none;
 }
 
@@ -217,16 +216,16 @@
 }
 
 .event-container .event-card .event-content h2 {
-    color: #8a4ef5;
+    color: black;
 }
 
-/* .event-container .event-card .event-content h2 {
-
-} */
+.event-container .event-card .event-content p {
+    color:black;
+}
 
 .event-container .event-card .event-content a {
     text-decoration: none;
-    color: #fff7e7;
+    color: white;
     position: relative;
     top: 8px;
     display: inline-block;
