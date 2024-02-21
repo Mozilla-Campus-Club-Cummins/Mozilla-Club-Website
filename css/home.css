@@ -144,40 +144,73 @@ h1 {
     padding-bottom: 5%;
     background-image: linear-gradient(to bottom, #93573f , #d07b59);
  }
+ .s2-child{
+    display: flex;
+    flex-direction: row;
+    
+ }
   .s2 .abouttext{
-    font-family: 'Times New Roman', serif;
-    font-size: 50px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 60px;
     padding-bottom: 20px;
     color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   }
 
   .s2 p{
-    font-size: 18px;
+    font-family: "Crimson Text", serif;
+    font-weight: 300;
+    font-size: 20px;
     max-width: 600px;
+    margin-right: 10%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   }
-
+  .s2 img{
+    width: 624px;
+    height: 75%;
+    margin-top: 12%;
+    border-radius: 2%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
   .s3{
     background-color: #677BB6;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 10% 0 10% 5%;
     width: 100%;
     background-image: linear-gradient(to bottom, #d07b59, #f89d65);
   }
-
+  .s3-child{
+    display: flex;
+    flex-direction: row;
+ }
+  .s3-img{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .s3-child img{
+    margin-top: 8%;
+    border-radius: 2%;
+    height: 280px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
   .s3 .whattext{
-    font-family: 'Times New Roman', serif;
-    font-size: 50px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 60px;
     padding-bottom: 20px;
-    padding-left: 50%;
     color: azure;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   }
 
   .s3 p{
     font-size: 18px;
-    padding-left: 50%;
     color: aliceblue;
+    font-family: "Crimson Text", serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-right: 16%;
+    margin-bottom: 10%;
   }
 
   .Members {
@@ -199,8 +232,9 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4ch;
     margin-top: 50px; */
-    font-family: 'Times New Roman', serif;
-    font-size: 50px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 60px;
     padding-bottom: 20px;
     text-align: center;
     color: black;
@@ -286,29 +320,48 @@ h1 {
     width: 220px;
     height: 220px;
     background-color: #fff;
-    padding: 30px;
+    padding: 10px;
     border-radius: 50%;
     box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
     transition: all 0.4s;
     margin: 0 20px;
 }
+.profile-card-head{
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
+  transition: all 0.4s;
+  margin: 6% 0% 2% 42%;
+}
 .profile-card:hover{
     border-radius: 10px;
     height: 260px;
     background-color: white;
+    cursor: pointer;
 }
-.profile-card .img{
+.profile-card-head:hover{
+  border-radius: 10px;
+  height: 260px;
+  background-color: white;
+  cursor: pointer;
+}
+.profile-card .img,.profile-card-head .img{
     position: relative;
     width: 100%;
     height: 100%;
 }
-.profile-card:hover img{
+.profile-card:hover img,.profile-card-head:hover img{
     border-radius: 10px;
     transform: translateY(-70px);
 }
 .img img{
     object-fit: fill;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     transition: all .4s;
     z-index: 99;
@@ -320,24 +373,22 @@ h1 {
     pointer-events: none;
     transition: all .5s;
 }
-.profile-card:hover .caption{
+.profile-card:hover .caption,.profile-card-head:hover .caption{
     opacity: 1;
     pointer-events: all;
 }
-.profile-card_head:hover .caption{
-  opacity: 1;
-  pointer-events: all;
-}
 .caption h3{
-    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 800;
+    font-size: 25px;
     color: #b04502;
-    font-weight: 600;
 }
 .caption p{
     color: #333;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 2px 0 12px 0;
+    font-family: "Crimson Text", serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0;
 }
 .caption .social-links i{
     font-size: 21px;
@@ -350,9 +401,6 @@ h1 {
     color: #b04502;
 }
 
-
-
-
 .others{
     display: flex;
     place-content: center;
@@ -361,7 +409,7 @@ h1 {
 }
 .others button{
   padding: 15px;
-  border-radius: 17px;
+  border-radius: 10px;
   color: #fff;
   background-color: rgba(34, 33, 33, 0.896);
   border: 0px;
@@ -385,11 +433,12 @@ h1 {
 }
 .s5 .content img{
   width: 100%;
-  height: 44%;
+  height: 80%;
 }
 .s5 .blogstext{
-  font-family: 'Times New Roman', serif;
-  font-size: 50px;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-size: 60px;
   padding-bottom: 20px;
   text-align: center;
   color: #000000;
