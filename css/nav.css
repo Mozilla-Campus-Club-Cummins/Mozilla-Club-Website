@@ -42,7 +42,8 @@
   .navbar-list a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
   }
   
   .menu-icon {
