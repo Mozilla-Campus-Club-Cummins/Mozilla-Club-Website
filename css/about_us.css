@@ -92,7 +92,7 @@ body{
     max-width: 600px;
     margin: 25px auto;
     margin-right: 75px;
-    animation: fadeIn 2s ease;
+    animation: fadeIn 4s ease;
 }
 .text  h1{
   font-size: 40px;
@@ -118,7 +118,7 @@ body{
     width: 500px;
     display: flex;
     height: 500px;
-    border: 15px solid rgb(248, 76, 53);
+    border: 15px solid lightgoldenrodyellow;
     border-radius: 25px;
     margin-right: 25px;
 }
@@ -145,7 +145,7 @@ body{
 }
 
 .services-list div {
-  background: #a86704;;
+  background: #cc8214;
   padding: 40px;
   font-size: 15px;
   font-weight: 300;
@@ -162,9 +162,13 @@ body{
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
-  color: rgb(65, 25, 1);;
-  
+  color: rgb(34, 15, 5);
+  }
 
+.services-list p{
+  font-size: 20px;
+  color: white;
+  text-shadow: #333;
 }
 
 .services-list div a {
