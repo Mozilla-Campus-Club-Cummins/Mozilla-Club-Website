@@ -206,9 +206,9 @@ h1 {
     font-size: 18px;
     color: aliceblue;
     font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     font-weight: 300;
     font-size: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     margin-right: 16%;
     margin-bottom: 10%;
   }
@@ -233,22 +233,13 @@ h1 {
     font-size: 4ch;
     margin-top: 50px; */
     font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     font-weight: 600;
     font-size: 60px;
     padding-bottom: 20px;
     text-align: center;
     color: black;
   }
-  .s4{
-    padding-top: 5%;
-    padding-bottom: 10%;
-    width: 100%;
-    height: 436px;
-    display: flex;
-    align-items: center;
-    place-content: center;
-  }
-
   /*.s4 .teamtext{
     font-family: 'Times New Roman', serif;
     font-size: 50px;
@@ -314,28 +305,36 @@ h1 {
     height: 270px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   } */
-
+  .s4{
+    margin-top: -64px;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 436px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+  }
   .profile-card{
     position: relative;
     width: 220px;
     height: 220px;
-    background-color: #fff;
+    background-color: #ffffffdb;
     padding: 10px;
     border-radius: 50%;
     box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
     transition: all 0.4s;
-    margin: 0 20px;
+    margin: 0 62px;
 }
 .profile-card-head{
   position: relative;
-  width: 220px;
-  height: 220px;
-  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  background-color: #ffffffdb;
   padding: 10px;
   border-radius: 50%;
   box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
-  transition: all 0.4s;
-  margin: 6% 0% 2% 42%;
+  transition: all 0.4s;    
+  margin: 32% 0% 2% 210%;
 }
 .profile-card:hover{
     border-radius: 10px;
@@ -354,24 +353,41 @@ h1 {
     width: 100%;
     height: 100%;
 }
-.profile-card:hover img,.profile-card-head:hover img{
+.profile-card-head:hover img{
+  border-radius: 10px;
+  transform: translateY(-90px);
+}
+.profile-card:hover img{
     border-radius: 10px;
     transform: translateY(-70px);
 }
 .img img{
-    object-fit: fill;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    transition: all .4s;
-    z-index: 99;
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: all .4s;
+  z-index: 99;
+}
+.profile-card-head img{
+  object-fit: fill;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  transition: all .4s;
+  z-index: 99;
 }
 .caption{
     text-align: center;
-    transform: translateY(-90px);
+    transform: translateY(-100px);
     opacity: 0;
     pointer-events: none;
+    font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     transition: all .5s;
+}
+.profile-card-head .caption{
+  transform: translateY(-90px);
 }
 .profile-card:hover .caption,.profile-card-head:hover .caption{
     opacity: 1;
@@ -379,6 +395,7 @@ h1 {
 }
 .caption h3{
     font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     font-weight: 800;
     font-size: 25px;
     color: #b04502;
@@ -386,6 +403,7 @@ h1 {
 .caption p{
     color: #333;
     font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     font-weight: 900;
     font-size: 18px;
     margin: 0;
@@ -442,6 +460,7 @@ h1 {
   padding-bottom: 20px;
   text-align: center;
   color: #000000;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 .wrapper {
   max-width: 1100px;
