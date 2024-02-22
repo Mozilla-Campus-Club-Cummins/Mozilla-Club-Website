@@ -1,59 +1,10 @@
 body{
     font-family: 'Arial', sans-serif;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f5d5b6;
-}
-
-.navbar {
-    background-color: #333;
-    padding: 15px;
-    position: fixed;
-    border-radius: 10px;
-    width: 96%;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar-logo {
-    color: #fff;
-    font-size: 20px;
-  }
-  
-  .navbar-list {
-    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .navbar-list li {
-    margin-right: 20px;
-  }
-  
-  .navbar-list a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-  } 
-  
-  .menu-icon {
-    display: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .content {
-    margin-top: 80px; /* Adjust this margin based on your header height */
-  }
-  
+    flex-direction: column;
+} 
   @media only screen and (max-width: 768px) {
     .navbar-list {
       display: none;
@@ -79,47 +30,46 @@ body{
       display: block;
     }
   }
-  
 .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    padding-top: 6%;
 }
-
 .text {
     width: 100%;
-    max-width: 600px;
+    max-width: 738px;
     margin: 25px auto;
-    margin-right: 75px;
+    margin-right: 49px;
     animation: fadeIn 4s ease;
 }
 .text  h1{
-  font-size: 40px;
+  font-family: "Crimson Text", serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  font-size: 50px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(71, 47, 2);
+  color: black;
 }
-
 .text p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 30px;
-    word-spacing: 10px;
-    
+    font-family: "Crimson Text", serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    font-size: 28px;
+    word-spacing: 8px;
+    margin-left: 5%;
 }
-
 .image-slider {
     width: 50%;
     overflow: hidden;
 }
-
 .image-slider img{
+  margin-left: 10%;
     width: 500px;
     display: flex;
     height: 500px;
-    border: 15px solid lightgoldenrodyellow;
-    border-radius: 25px;
+    border: 8px solid #f9995b;
+    border-radius: 7px;
     margin-right: 25px;
 }
 
@@ -132,8 +82,8 @@ body{
     }
 }
 #services {
-  padding: 30px 0;
-  background-color: #f5d5b6;;
+  padding: 0px 10px 70px 10px;
+  background-color: #f5d5b6;
 }
 
 .services-list {
@@ -145,12 +95,14 @@ body{
 }
 
 .services-list div {
-  background: #cc8214;
-  padding: 40px;
+  background: #fa8943ca;
+  padding: 25px 15px 30px 22px;
   font-size: 15px;
   font-weight: 300;
   border-right: 10px;
-  transition: background 0.5s, transform 0.5s;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  transition: 0.5s, transform 0.5s;
 }
 
 .services-list div i {
@@ -159,16 +111,20 @@ body{
 }
 
 .services-list div h2 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
   margin-bottom: 15px;
+  font-family: "Crimson Text", serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   color: rgb(34, 15, 5);
   }
 
 .services-list p{
   font-size: 20px;
-  color: white;
-  text-shadow: #333;
+  font-weight: 500;
+  font-family: "Crimson Text", serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 .services-list div a {
@@ -180,7 +136,7 @@ body{
 }
 
 .services-list div:hover {
-  background-color: orangered;
+  background-color: #fb7a2ac9;
   transform: translate(10px);
 }
 
