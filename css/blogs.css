@@ -9,8 +9,7 @@
   }
 
   .container {
-    background: linear-gradient(0deg, rgb(63, 87, 138) 0%,rgb(132, 175, 202) 35%, rgb(4, 60, 62) 100%); 
- }  
+    background: linear-gradient(0deg, #FFECB3 0%, #FFFACD 40%, #D2B48C 100%);
  
   
   .navbar {
@@ -132,8 +131,8 @@
   justify-content: center;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 20px;
 }
 
 .content {
@@ -143,11 +142,12 @@
 
   .cards {
     border-radius: 5px;
-    margin: 40px;   
+    margin: 20px;   
     box-shadow: 2px 2px 10px black;
     opacity: 0.9;
     transition: transform 0.6s ease;
-    background: linear-gradient(110.3deg, rgb(187, 167, 218) 8.7%, rgb(112, 100, 207) 47.5%, rgb(79, 11, 236) 89.1%);
+    background: linear-gradient(110.3deg, #FFA07A 8.7%, #FF7F50 47.5%, #FF6347 89.1%);
+    width: 95%; 
   }
 
   .cards:hover {
@@ -165,7 +165,8 @@
   }
   .image img {
     padding-top:0% !important;
-    width: 100%;  
+    width: 100%;
+    max-height: 150px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
