@@ -308,8 +308,7 @@ h1 {
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   } */
   .s4{
-    margin-top: -64px;
-    padding-bottom: 5%;
+    margin-top: -102px;
     width: 100%;
     height: 436px;
     display: flex;
@@ -445,8 +444,6 @@ h1 {
 .s5{
   padding-left: 17%;
   padding-right: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
   width: 100%;
   background-color: #CDFFD8;
   background-image: linear-gradient(to bottom, #f89d65 , #f38f52);
