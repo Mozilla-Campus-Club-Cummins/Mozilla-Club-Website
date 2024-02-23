@@ -53,10 +53,8 @@ body{
 }
 .text p{
     font-family: "Crimson Text", serif;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     text-align: justify;
     font-size: 28px;
-    word-spacing: 8px;
     margin-left: 5%;
 }
 .image-slider {
@@ -115,7 +113,6 @@ body{
   font-weight: 600;
   margin-bottom: 15px;
   font-family: "Crimson Text", serif;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   color: rgb(34, 15, 5);
   }
 

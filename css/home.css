@@ -6,17 +6,6 @@
 body,html{
   overflow-x: hidden;
 }
-/* .s1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    padding-top: 70px;
-    background-color: #CDFFD8;
-    background-image: linear-gradient(to right, #CDFFD8 , #94B9FF);
-} */
 
 h1 {
     color: #333;
