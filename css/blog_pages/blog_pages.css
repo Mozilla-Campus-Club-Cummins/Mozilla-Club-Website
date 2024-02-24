@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    margin-top: 5%;
+    width: 50%;
+}
+.sub-container .title h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 5% 0;
+    padding-bottom: 7px;
+    border-top: 1px solid rgba(128, 128, 128, 0.395);
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.395);
+}
+.profile .dp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 1%;
+}
+.profile .dp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile h3{
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 7%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.profile h4{
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 2%;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(49, 48, 48, 0.699);
+}
+.sub-container .img img{
+    width: 100%;
+    max-height: 465px;
+    margin: 1% 0 6% 0;
+}
+.blog-content p,li{
+    text-align: justify;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.blog-content ul{
+    margin-left: 4%;
+    margin-top: 2%;
+}
