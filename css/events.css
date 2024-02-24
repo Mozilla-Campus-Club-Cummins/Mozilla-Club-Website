@@ -9,8 +9,7 @@
     width: 100%;
     padding: 25px;
     padding-top: 0;
-    background-color: #fd925d;
-
+    background-image: linear-gradient(to bottom, #ed966bde, #f17a3f);
 }
 
 .events-page h1 {
@@ -19,6 +18,7 @@
     padding-top: 70px;
     font-weight: 800;
     color: #000;
+    font-family: "Crimson Text", serif;
     filter: drop-shadow(0.045em 0.045em 0.025em hsl(0, 0%, 43%));
 }
 
@@ -30,11 +30,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 .events-page .part1 h3 {
     font-size: 34px;
     color: black;
+    font-family: "Crimson Text", serif;
 }
 
 .h-underline {
@@ -122,6 +125,7 @@
 
 .part3 {
     padding-block: 5rem;
+    padding-top: 0px;
 }
 
 .part3 h1 {
@@ -216,6 +220,7 @@
 
 .event-container .event-card .event-content h2 {
     color: black;
+    font-family: "Crimson Text", serif;
 }
 
 .event-container .event-card .event-content p {
@@ -223,6 +228,7 @@
     font-size: 14px;
     font-weight: 450;
     letter-spacing: 0rem;
+    font-family: "Crimson Text", serif;
 }
 
 .event-container .event-card .event-content a {

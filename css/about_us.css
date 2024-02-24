@@ -35,7 +35,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    padding-top: 6%;
+    padding-top: 4%;
 }
 .text {
     width: 100%;
@@ -59,16 +59,16 @@ body{
 }
 .image-slider {
     width: 50%;
-    overflow: hidden;
 }
 .image-slider img{
-  margin-left: 10%;
+    margin-left: 10%;
     width: 500px;
     display: flex;
     height: 500px;
-    border: 8px solid #f9995b;
     border-radius: 7px;
     margin-right: 25px;
+    box-shadow: -6px 5px 8px rgba(0, 0, 0, 0.4);
+
 }
 
 @keyframes fadeIn {
@@ -111,6 +111,7 @@ body{
 .services-list div h2 {
   font-size: 40px;
   font-weight: 600;
+  margin-left: 33%;
   margin-bottom: 15px;
   font-family: "Crimson Text", serif;
   color: rgb(34, 15, 5);

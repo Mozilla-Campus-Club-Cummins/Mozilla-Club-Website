@@ -165,7 +165,7 @@ h1 {
   }
   .s3{
     background-color: #677BB6;
-    padding: 10% 0 10% 5%;
+    padding: 10% 0 6% 5%;
     width: 100%;
     background-image: linear-gradient(to bottom, #d07b59, #f89d65);
   }
@@ -445,9 +445,11 @@ h1 {
   font-family: "Crimson Text", serif;
   font-weight: 600;
   font-size: 60px;
+  padding-top: 9%;
   padding-bottom: 20px;
   text-align: center;
   color: #000000;
+  margin-right: 111px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 .wrapper {
