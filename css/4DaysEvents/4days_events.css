@@ -217,6 +217,9 @@ body{
     transform: translateY(-5px);
     box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.8);
 }
+.content-table td img{
+    min-width: 33px;
+}
 @media screen and (max-width: 1354px){
     body{
         margin-left: 10%;
@@ -266,12 +269,20 @@ body{
     .left-container img,.right-container img{
         left: 10px;
     }
+    .left-container h2, .left-container h5{
+        text-align: left;
+    }
+    .left-container p,.right-container p{
+        text-align: justify;
+    }
     /* .left-container-arrow,.right-container-arrow{
         border-right: 15px solid #fff;
         border-left: 0;
         left: -15px;
     } */
-
+    .content-table td img{
+        min-width: 33px;
+    }
     .content-table{
         margin: 2% 0 2% 15%;
         width: 90%;
