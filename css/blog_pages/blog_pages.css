@@ -55,6 +55,9 @@ body{
     max-height: 465px;
     margin: 1% 0 6% 0;
 }
+.blog-content{
+    margin-bottom: 10%;
+}
 .blog-content p,li{
     text-align: justify;
     word-spacing: 0.5rem;
@@ -65,4 +68,7 @@ body{
 .blog-content ul{
     margin-left: 4%;
     margin-top: 2%;
+}
+.blog-content ul li b{
+    font-family: 'Times New Roman', Times, serif;
 }
