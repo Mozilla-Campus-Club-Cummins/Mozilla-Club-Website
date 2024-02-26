@@ -31,24 +31,26 @@
     </div>
 
     <div id="contact">
-        <div class="container">
+        <div class="container" style="background-image: linear-gradient(to bottom, #f89853a3, #fc8027ba);">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <!-- <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fa-solid fa-paper-plane"></i>mozilla_club@cummiscollege.in</p>
                     <p><i class="fa-solid fa-phone"></i>1234567890</p>
                     <div class="social-icons">
                         <a href="(social midia profile link)"><i class="fa-brands fa-square-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    </div>
+                    </div> -->
+                    <img src="../images/contact_page.jpg" style="width: 100%; height: 100%; border-radius: 5px; 
+                    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);">
                 </div>
                 <div class="contact-right">
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="ef026cf5-c9ee-4d05-a50c-d44b4aa118ed">  
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your email"required>
-                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <input type="text" name="Name" placeholder="Your Name" required autocomplete="off">
+                        <input type="email" name="Email" placeholder="Your email"required autocomplete="off">
+                        <textarea name="Message"  rows="6" placeholder="Your Message" autocomplete="off"></textarea>
                         <a href="../html/contact_us.html"><button type="submit" class="btn btn2">Submit</button></a>
                     </form>
                     <span id="msg"></span>
