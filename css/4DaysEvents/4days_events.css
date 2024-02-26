@@ -1,0 +1,304 @@
+*{
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-family: math;
+}
+body{    
+    background-image: linear-gradient(45deg, #df7425a3, #ff6c00ba);
+    /* background-image: url("4DaysEvents_background_img(3).jpg"); */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 204% 204%;
+    overflow-x: hidden;
+}
+.container-events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.container:nth-child(1){
+    animation-delay: 1s;
+}
+.container:nth-child(2){
+    animation-delay: 2s;
+}
+.container:nth-child(3){
+    animation-delay: 3s;
+}
+.container:nth-child(4){
+    animation-delay: 5s;
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.609);
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 4);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.left-container{
+    left: -100px;
+}
+.left-container h2, .left-container h5{
+    text-align: right;
+}
+.left-container p,.right-container p{
+    text-align: justify;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.609);
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 4);
+    top: 0;
+    left: 50%;
+    border-radius: 5px;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+    0%{
+        height:0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/* .left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgba(0, 0, 0, 0.609); 
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 4);
+    right: -14px;
+} */
+/* .right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid rgba(0, 0, 0, 0.609);
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 4);
+    left: -14px;
+} */
+.table{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 1em;
+    width: 60%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.491);
+    border-radius: 5px;
+    box-shadow: -6px 5px 8px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+
+.content-table thead tr {
+    /* background-color: rgba(0, 0, 0, 0.609); */
+    background: rgba(0, 0, 0, 0.633);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    font-size: 17px;
+    padding: 24px 17px;
+    border: 1px solid rgba(0, 0, 0, 0.339);
+    text-align: center;
+}
+
+.content-table tbody tr {
+    /* border-bottom: 1px solid #dddddd; */
+    font-weight: bold;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+    /* background-color: rgba(0, 0, 0, 0.843); */
+}
+.table{
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 20px; 
+    height: 100%; 
+    table-layout: fixed;
+    width: 100%;
+}
+.content-table tbody tr:nth-of-type(even) {
+    /* background-color: #ffffffa8; */
+}
+
+/* .content-table tbody tr:last-of-type {
+    border: 2px solid rgba(0, 0, 0, 0.863);
+} */
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.content-table button{
+    width: 100%;
+    margin: 0 5% 0 5%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.889);
+    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 3%;
+    transition: 0.5s ease-in-out;
+}
+.content-table button:hover{
+    background-color: black;
+    transform: translateY(-5px);
+    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.8);
+}
+.content-table td img{
+    min-width: 33px;
+}
+@media screen and (max-width: 1354px){
+    body{
+        margin-left: 10%;
+    }
+    .content-table {
+        border-collapse: collapse;
+        margin: 2% 0 2% 2%;
+        font-size: 1em;
+        min-width: 80%;
+        border-radius: 5px 5px 5px 5px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .content-table th, .content-table td {
+        padding: 24px 28px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin-left: 2%;
+        height: 800px;
+    }
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 20px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container{
+        left: 0.8%;
+    }
+    .left-container img,.right-container img{
+        left: 10px;
+    }
+    .left-container h2, .left-container h5{
+        text-align: left;
+    }
+    .left-container p,.right-container p{
+        text-align: justify;
+    }
+    /* .left-container-arrow,.right-container-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    } */
+    .content-table td img{
+        min-width: 33px;
+    }
+    .content-table{
+        margin: 2% 0 2% 15%;
+        width: 90%;
+    }
+    .content-table th,
+    .content-table td {
+        padding: 24px 17px;
+}
+}
+@media screen and (max-width: 455px){
+    .content-table th,
+    .content-table td {
+        padding: 24px 17px;
+}
+.content-table{
+    margin: 2% 0 2% 28%;
+    width: 90%;
+}
+}
