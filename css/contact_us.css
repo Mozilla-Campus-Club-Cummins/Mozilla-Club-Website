@@ -8,13 +8,13 @@ body{
   color: #fff; 
 }
 .container{
-  background: #080808;
-  /* background-image: linear-gradient(45deg, #df7425a3, #ff6c00ba); */
-  padding: 8% 0% 2% 0%;
+  /* background: #080808; */
+  padding: 6% 0% 6% 0%;
 }
 .container{
   max-width: 1530px !important;
 }
+
 .row{
   display: flex;
   justify-content: space-between;
@@ -89,7 +89,9 @@ display: block;
   transition: 0.5s;
 }
 .btn:hover{
-  background: #ff8400;
+  background: black !important;
+  color: #fff !important;
+  transform: translateY(-3px);
 }
 /*----------contact------*/
 .contact-left{
@@ -103,29 +105,31 @@ display: block;
   margin-top: 30px;
 }
 .contact-left p i{
-  color:#ff8336
-  ;
+  color:#ff8336;
   margin-right: 15px;
   font-size: 25px;
 }
-.social-icons{
+/* .social-icons{
   margin-top: 30px;
-}
-.social-icons a{
+} */
+/* .social-icons a{
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
   color: #ababab;
   display: inline-block;
   transition: transform 0.5s;
-}
-.social-icons a:hover{
+} */
+/* .social-icons a:hover{
   color: #ff8336;
   transform: translateY(-5px);
-}
+} */
 .btn.btn2{
   display: inline-block;
-  background:#ff8336;
+  background:rgba(0, 0, 0, 0.835);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  transition: 0.5s ease-out;
 }
 .contact-right form{
   width: 100%;
