@@ -10,6 +10,8 @@
     padding: 25px;
     padding-top: 0;
     background-image: linear-gradient(to bottom, #ed966bde, #f17a3f);
+    background: linear-gradient(0deg, #fc863c 0%, #fd914e 40%, #fc995c 100%);
+
 }
 
 .events-page h1 {
@@ -18,7 +20,7 @@
     padding-top: 70px;
     font-weight: 800;
     color: #000;
-    font-family: "Crimson Text", serif;
+    /* font-family: "Crimson Text", serif; */
     filter: drop-shadow(0.045em 0.045em 0.025em hsl(0, 0%, 43%));
 }
 
@@ -43,9 +45,10 @@
 .h-underline {
     width: 9%;
     height: 5px;
-    background-color: #2f2c277e;
+    background-color: #3b33337a;
     margin: 0 auto;
 }
+
 /* 
 .part2 {
     padding-block: 4rem;
@@ -139,7 +142,8 @@
     letter-spacing: 0.1rem;
 }
 
-.events-page hr, .part3 hr {
+.events-page hr,
+.part3 hr {
     width: 90px;
     height: 3px;
     margin-inline: auto;
@@ -186,10 +190,10 @@
     transition: 0.8s;
 }
 
-.event-container .event-card:hover .img-box{
+.event-container .event-card:hover .img-box {
     top: -165px;
     scale: 0.69;
-    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 
 .event-container .event-card .img-box img {
@@ -224,10 +228,12 @@
 }
 
 .event-container .event-card .event-content p {
-    color:black;
-    font-size: 14px;
+    margin-top: 18px;
+    color: black;
+    font-size: 17px;
     font-weight: 450;
     letter-spacing: 0rem;
+    line-height: 1.4rem;
     font-family: "Crimson Text", serif;
 }
 
