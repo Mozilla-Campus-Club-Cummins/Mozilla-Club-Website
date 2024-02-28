@@ -124,7 +124,16 @@ body {
   overflow: hidden;
   object-fit: cover;
 }
-
+.cards .content button{
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 1%;
+}
+.cards .content button{
+  transform: translateY(-5px);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
 .title {
   padding-top: 5%;
   text-align: center;
@@ -157,7 +166,7 @@ body {
   font-size: 16.8px;
   font-weight: 490;
   line-height: 1.6rem;
-  /* margin-bottom: 1%; */
+  margin-bottom: 3%;
 }
 .des a{
   margin-left: 2%;
