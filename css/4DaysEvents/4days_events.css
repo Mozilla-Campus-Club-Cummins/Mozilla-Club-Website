@@ -58,7 +58,7 @@ body{
 .text-box{
     padding: 20px 30px;
     background: rgba(0, 0, 0, 0.609);
-    box-shadow: -5px 8px 45px rgba(51, 51, 51, 4);
+    box-shadow: 2px 7px 14px rgba(0, 0, 0, 0.6);
     position: relative;
     border-radius: 6px;
     font-size: 15px;

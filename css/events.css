@@ -26,14 +26,19 @@
 
 .events-page .part1 {
     width: 60%;
-    height: 50vh;
-    background-color: #333333;
+    height: 50%;
+    /* background-color: #333333; */
     margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.466);
+}
+.events-page img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 .events-page .part1 h3 {
