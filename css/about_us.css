@@ -138,7 +138,7 @@ body{
   transform: translate(10px);
 }
 
-
+/*for smaller screen size*/
 @media only screen and (max-width: 769px) {
   
   .content {
@@ -148,6 +148,7 @@ body{
 
   .text {
       margin-right: 10px;
+      max-width: 90%; /* Set maximum width for text container */
   }
 
   .text h1 {
@@ -160,6 +161,7 @@ body{
 
   .image-slider {
       width: 100%;
+      overflow: hidden;/*Hide overflow*/
   }
 
   .image-slider img {
