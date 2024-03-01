@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: column;
 } 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     .navbar-list {
       display: none;
       flex-direction: column;
@@ -139,7 +139,7 @@ body{
 }
 
 /*for smaller screen size*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   
   .content {
       margin-top: 50px;
