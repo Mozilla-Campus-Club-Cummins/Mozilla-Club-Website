@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: column;
 } 
-  @media only screen and (max-width: 769px) {
+  @media only screen and (max-width: 768px) {
     .navbar-list {
       display: none;
       flex-direction: column;
@@ -139,44 +139,37 @@ body{
 }
 
 /*for smaller screen size*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   
   .content {
-      flex-direction: column; /* Change flex-direction to column */
-      align-items: center; /* Center items vertically */
-      padding: 20px;
-  }
-
-  .text {
-      width: 100%;
-      max-width: 738px;
-      margin: 0 auto; /* Center text container */
-      text-align: center; /* Center text */
-  }
-
-  .text h1 {
-      font-size: 30px;
-      margin-bottom: 10px; /* Add margin bottom for spacing */
-  }
-
-  .text p {
-      font-size: 20px;
-      margin: 0; /* Remove margin */
+      flex-direction: column-reverse; /* Reverse the order of flex items */
+      padding: 10px;
+      margin-top: 1s0px;
   }
 
   .image-slider {
       width: 100%;
       overflow: hidden;/*Hide overflow*/
-      margin-bottom: 20px; /* Add margin to create space between image and text */
   }
 
   .image-slider img {
       width: 100%;
       height: auto;
-      margin: 0; /*Remove margin*/
-      border-radius: 7px;
-      box-shadow: -6px 5px 8px rgba(0, 0, 0, 0.4);
+      margin: 0;
   }
+
+  .text {
+      max-width: 90%; /* Set maximum width for text container */
+  }
+
+  .text h1 {
+      font-size: 30px;
+  }
+
+  .text p {
+      font-size: 20px;
+  }
+
 
   .services-list {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
