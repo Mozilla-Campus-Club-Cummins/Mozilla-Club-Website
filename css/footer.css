@@ -109,3 +109,25 @@
     margin-bottom:15px;   
     margin-left: 0px; 
 }
+.container .copyright {
+    font-size: 18px;
+    font-family: 'Zilla Slab';
+}
+@media screen and (max-width:992px) {
+    #footer{
+        padding: 2% 5% 2% 5%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer .footer-top .footer-contact {
+        margin-bottom: 30px;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    .container .copyright {
+        font-size: 10px;
+    }
+}

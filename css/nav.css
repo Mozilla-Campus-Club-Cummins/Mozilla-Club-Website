@@ -77,6 +77,10 @@
   
     .menu-icon {
       display: block;
+      margin-right: 7%;
+    }
+    .navbar-logo img{
+      margin-left: 7%;
     }
   }
   

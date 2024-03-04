@@ -72,3 +72,34 @@ body{
 .blog-content ul li b{
     font-family: 'Times New Roman', Times, serif;
 }
+@media screen and (max-width:781px) {
+    .sub-container .title h1{
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .main-container{
+        margin-top: 5%;
+        width: 80%;
+    }
+    .profile h3{
+        font-size: 13px;
+    }
+    .profile h4{
+        font-size: 11px;
+    }
+    .blog-content p{
+        word-spacing: 0.5rem;
+        line-height: 1.2rem;
+        font-size: 16px;
+    }
+    .profile .dp img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .profile .dp{
+        width: 30px;
+        height: 30px;
+        margin-top: 4%;
+    }
+}

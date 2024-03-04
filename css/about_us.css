@@ -139,7 +139,7 @@ body{
 }
 
 /*for smaller screen size*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1373px) {
   
   .content {
       flex-direction: column-reverse; /* Reverse the order of flex items */

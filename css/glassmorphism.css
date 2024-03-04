@@ -128,14 +128,18 @@ body{
       align-items: center;
     }
     .s5 .blogstext{
+      font-size: 45px;
       margin: 0%;
+      padding: 9% 0 0 0;
     }
     .wrapper .carousel {
       grid-auto-columns: 101%;
       gap: 28px;
       /* align-items: center; */
       margin-left: 22%;
-    }.container .card{
+      margin-top: -10%;
+    }
+    .container .card{
         width: 259px;
         height: 389px;
     }
@@ -150,5 +154,8 @@ body{
     .container .card{
         width: 223px;
         height: 359px;
+    }
+    .container .card .content h3{
+        font-size: 21px;
     }
   }
