@@ -6,19 +6,18 @@ margin: 0;
 position: relative;
 top: 140px;
 }
-
-.landing .name h1 {
-font-size: 65px;
-font-family: "Crimson Text", serif;
-font-weight: 300;
-font-weight: bold;
-text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-background: linear-gradient(to bottom, black, rgba(22, 22, 22, 0.633));
--webkit-background-clip: text;
-color: transparent;
-padding: 20px;
+.landing .name h1{
+  font-size: 50px;
+  /* font-family: "Crimson Text", serif; */
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom, black, rgba(22, 22, 22, 0.633));
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
 }
-
 .landing .name p {
 font-size: 20px;
 color: black;
