@@ -27,6 +27,12 @@ font-weight: 300;
 font-style: normal;
 }
 
+@media only screen and (max-width: 1217px) {
+  .landing  .name h1 {
+    font-size: 40px;
+  }
+
+}
 @media only screen and (max-width: 600px) {
 
 
@@ -36,7 +42,7 @@ top: 150px;
 }
 
 .landing  .name h1 {
-font-size: 50px;
+  font-size: 25px;
 }
 
 .landing  .name p {
@@ -48,9 +54,6 @@ height: 60vh;
 }
 }
 
-@media only screen and (max-width: 600px) {
-
-}
 
 /* 
 section2 */
