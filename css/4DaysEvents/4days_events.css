@@ -3,13 +3,31 @@
     padding: 0px;
     font-family: math;
 }
+.glow-text {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.glow-text h1 {
+	font-size: 7rem;
+	color: #fff;
+	text-shadow: 0 0 10px #b700ff, 0 0 20px #b700ff, 0 0 30px #ff00de, 0 0 40px #ff00de;
+	animation: glow 2s ease-in-out infinite;
+}
+
+
 body{    
     
-    background-image: linear-gradient(to bottom, #f09d60de, #f18b3fe0);
+    /* background-image: linear-gradient(to bottom, #000768de, #dbc2f0e0); */
+    background-image: url(../../images/4days_events_images/bg.jpg);
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size: 204% 204%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+   
+    /* background-repeat: no-repeat; */
+    /* background-size: 204% 204%; */
     overflow-x: hidden;
 }
 .container-events{
@@ -28,6 +46,7 @@ body{
     padding: 10px 50px;
     position: relative;
     width: 50%;
+    
     animation: movedown 1s linear forwards;
     opacity: 0;
 }
@@ -56,9 +75,10 @@ body{
 }
 
 .text-box{
+    box-shadow: 0 0 10px 5px #b700ff;
     padding: 20px 30px;
-    background: rgba(0, 0, 0, 0.609);
-    box-shadow: 2px 7px 14px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.788);
+    /* box-shadow: 2px 7px 14px rgba(0, 0, 0, 0.6); */
     position: relative;
     border-radius: 6px;
     font-size: 15px;
@@ -139,6 +159,7 @@ body{
     left: -14px;
 } */
 .table{
+    color: #fff;
     margin: 5%;
     display: flex;
     align-items: center;
@@ -150,13 +171,13 @@ body{
     font-size: 1em;
     width: 60%;
     overflow: hidden;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
     box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.87);
     opacity: 0.9;
 }
 tbody{
-    color: black;
+    /* color: black; */
 }
 .content-table thead tr {
     background: black;
@@ -177,7 +198,7 @@ tbody{
 }
 
 .content-table tbody tr:nth-of-type(odd) {
-    background-color: rgb(242 164 106);
+    background-color: #b700ff39;
 }
 .table{
     margin-left: auto; 
@@ -188,7 +209,7 @@ tbody{
     width: 100%;
 }
 .content-table tbody tr:nth-of-type(even) {
-    background-color: #f2a46a4d;
+    background-color: #0f000c84;
 }
 
 .content-table button{
@@ -196,7 +217,7 @@ tbody{
     margin: 0 5% 0 5%;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.889);
-    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: -3px 5px 8px rgba(0, 0, 0, 0.491);
     border-radius: 8px;
     padding: 6% ;
     transition: 0.5s ease-in-out;
@@ -212,6 +233,9 @@ tbody{
 @media screen and (max-width: 1354px){
     body{
         margin-left: 10%;
+    }
+    .glow-text{
+        font-size: 5rem;
     }
     .content-table {
         border-collapse: collapse;
@@ -231,6 +255,9 @@ tbody{
     body{
         margin-left: 2%;
         height: 900px;
+    }
+    .glow-text{
+        font-size: 3rem;
     }
     .timeline{
         margin: 50px auto;
@@ -278,6 +305,9 @@ tbody{
 }
 }
 @media screen and (max-width: 455px){
+    .glow-text{
+        font-size: 2rem;
+    }
     .content-table th,
     .content-table td {
         padding: 24px 17px;
