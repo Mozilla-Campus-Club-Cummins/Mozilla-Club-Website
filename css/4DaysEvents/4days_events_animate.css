@@ -4,10 +4,13 @@
     
     /* position: relative; */
 }
+img {
+    filter: grayscale(100%) hue-rotate(90deg);
+  }
 .wrapper div{
     width: 70px;
     height: 70px;
-    border: 5px solid white;
+    border: 5px solid rgb(45, 9, 253);
     border-radius: 5px;
     position: absolute;
 }
