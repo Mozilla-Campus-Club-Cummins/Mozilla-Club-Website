@@ -131,8 +131,11 @@ display: block;
   color: #fff;
   transition: 0.5s ease-out;
 }
-.contact-right form{
+.contact-right form {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 form input,form textarea{
   width: 100%;
