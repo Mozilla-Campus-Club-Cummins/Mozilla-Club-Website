@@ -136,7 +136,7 @@
     padding-top: 0px;
 }
 
-.part3 h1 {
+.part3 h1, .part3 h2 {
     font-family: "Crimson Text", serif;
     position: relative;
     text-align: center;
@@ -231,6 +231,7 @@
 .event-container .event-card .event-content h2 {
     color: black;
     font-family: "Crimson Text", serif;
+    font-size: 25px;
 }
 
 .event-container .event-card .event-content p {
@@ -256,19 +257,6 @@
     /* font-size: 5px; */
 }
 
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-    .card-content {
-        margin-inline: 3rem;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        display: block;
-    }
-}
-
 @media screen and (min-width: 1120px) {
     .part2 {
         max-width: 1120px;
@@ -281,5 +269,66 @@
 
     .swiper-button-next {
         right: -1rem;
+    }
+}
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .events-page h1{
+        font-size: 40px;
+        padding-top: 18%;
+    }
+    .events-page .part1{
+        width: 100%;
+        height: 50%;
+    }
+    .events-page h2{
+        font-size: 40px;
+        padding: 0;
+    }
+    
+    .event-container{
+        margin-top: 10%;
+        padding: 0;
+    }
+    .events-page{
+        padding: 10px;
+    }
+    .event-container .event-card {
+        width: 256px;
+        height: 256px;
+    }
+    .event-container .event-card .img-box {
+        top: 11px;
+        width: 230px;
+        height: 230px;
+    }
+    .event-container .event-card:hover {
+        height: 261px;
+    }
+    .event-container .event-card:hover .img-box {
+        top: -80px;
+        scale: 0.9;
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+    }
+    .event-container .event-card .event-content a{
+        padding: 12px 25px;
+    }
+    .event-container .event-card:hover .event-content {
+        top: 170px;
+        height: 350px;
+        transition: 0.8s;
+    }
+    .event-content h2{
+        display: none;
+    }
+    .event-content p{
+        display: none;
+    }
+    .card-content {
+        margin-inline: 3rem;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
     }
 }
