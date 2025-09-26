@@ -1,12 +1,14 @@
 .landing {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
+
 .landing .name {
-position: relative;
-top: 140px;
+  position: relative;
+  top: 140px;
 }
-.landing .name h1{
+
+.landing .name h1 {
   font-size: 50px;
   /* font-family: "Crimson Text", serif; */
   font-family: "Skranji", system-ui;
@@ -18,19 +20,19 @@ top: 140px;
   color: transparent;
   padding: 20px;
 }
+
 .landing .name p {
-font-size: 20px;
-color: black;
-font-family: "Crimson Text", serif;
-font-weight: 300;
-font-style: normal;
+  font-size: 20px;
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-weight: 300;
+  font-style: normal;
 }
- 
-.landing  .layer-1 {
+
+.landing .layer-1 {
   animation: parallax_fg linear 20s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/1.png) 0
-  100% repeat-x;
-  filter:hue-rotate(160deg);
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/1.png) 0 100% repeat-x;
+  filter: hue-rotate(160deg);
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -39,12 +41,11 @@ font-style: normal;
   height: 100%;
   background-size: auto 136px;
   opacity: 0.7;
-  }
-  
-  .landing .layer-2 {
+}
+
+.landing .layer-2 {
   animation: parallax_fg linear 30s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/2.png) 0
-  100% repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/2.png) 0 100% repeat-x;
   filter: hue-rotate(160deg);
   z-index: 1;
   position: absolute;
@@ -54,12 +55,11 @@ font-style: normal;
   height: 100%;
   background-size: auto 145px;
   opacity: 0.7;
-  }
-  
-  .landing .layer-3 {
+}
+
+.landing .layer-3 {
   animation: parallax_fg linear 55s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/3.png) 0
-  100% repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/3.png) 0 100% repeat-x;
   filter: hue-rotate(150deg);
   z-index: 1;
   position: absolute;
@@ -69,12 +69,11 @@ font-style: normal;
   height: 100%;
   background-size: auto 158px;
   opacity: 0.7;
-  }
-  
-  .landing .layer-4 {
+}
+
+.landing .layer-4 {
   animation: parallax_fg linear 75s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/4.png) 0
-  100% repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/4.png) 0 100% repeat-x;
   filter: hue-rotate(180deg);
   z-index: 1;
   position: absolute;
@@ -84,12 +83,11 @@ font-style: normal;
   height: 100%;
   background-size: auto 468px;
   opacity: 0.7;
-  }
-  
-  .landing .layer-5 {
+}
+
+.landing .layer-5 {
   animation: parallax_fg linear 95s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/5.png) 0
-  100% repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/5.png) 0 100% repeat-x;
   filter: hue-rotate(170deg);
   z-index: 1;
   position: absolute;
@@ -99,12 +97,11 @@ font-style: normal;
   height: 100%;
   background-size: auto 311px;
   opacity: 0.7;
-  }
-  
-  .landing .layer-6 {
+}
+
+.landing .layer-6 {
   animation: parallax_fg linear 120s infinite both;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/6.png) 0
-  100% repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/6.png) 0 100% repeat-x;
   filter: hue-rotate(160deg);
   z-index: 1;
   position: absolute;
@@ -114,34 +111,33 @@ font-style: normal;
   height: 100%;
   background-size: auto 222px;
   opacity: 0.7;
-  }
-  
-  .landing .head {
+}
+
+.landing .head {
   text-align: center;
   font-size: 30px;
-  
+
   z-index: 1;
-  
+
   position: relative;
   overflow: hidden;
-  }
-  
-  .landing .head h1 {
+}
+
+.landing .head h1 {
   font-size: 30px;
   margin-top: 180px;
   color: #0e528a;
-  }
-  
-  .landing .head p {
+}
+
+.landing .head p {
   font-size: 15px;
-  
+
   color: #0e528a;
-  }
-  
-  .landing .bike-1,
-  .landing .bike-2 {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/bike.png) 0
-  100% no-repeat;
+}
+
+.landing .bike-1,
+.landing .bike-2 {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/bike.png) 0 100% no-repeat;
   filter: hue-rotate(170deg);
   z-index: 1;
   position: absolute;
@@ -151,35 +147,35 @@ font-style: normal;
   height: 100%;
   background-size: auto 75px;
   animation: parallax_bike linear 10s infinite both;
-  }
-  
-  .landing .bike-2 {
+}
+
+.landing .bike-2 {
   animation: parallax_bike linear 15s infinite both;
-  }
-  
-  @keyframes parallax_fg {
+}
+
+@keyframes parallax_fg {
   0% {
-  background-position: 2765px 100%;
+    background-position: 2765px 100%;
   }
-  
+
   100% {
-  background-position: 550px 100%;
+    background-position: 550px 100%;
   }
-  }
-  
-  @keyframes parallax_bike {
+}
+
+@keyframes parallax_bike {
   0% {
-  background-position: -300px 100%;
+    background-position: -300px 100%;
   }
-  
+
   100% {
-  background-position: 2000px 100%;
+    background-position: 2000px 100%;
   }
-  }
-  
-  
+}
+
+
 @media only screen and (max-width: 1217px) {
-  .landing  .name h1 {
+  .landing .name h1 {
     font-size: 40px;
   }
 
@@ -189,115 +185,121 @@ font-style: normal;
 section2 */
 
 .landing .static1 {
-/* background-image: linear-gradient(#8c5926, #dfaf56); */
-opacity: 1;
+  /* background-image: linear-gradient(#8c5926, #dfaf56); */
+  opacity: 1;
 }
 
 .landing .hello {
-margin-top: 10px;
-margin-bottom: 10px;
-margin-right: 10px;
-height: 250px;
-width: 250px;
-border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
 }
 
 
 /* responsive */
 
 .landing .hero {
-/* width: 100%; */
-height: 100vh;
-/* position: relative; */
-top: 0;
-left: 0;
-background-color: #ffeecc;
-opacity: 40;
-transform: translate3d(0, 0, 0);
+  /* width: 100%; */
+  height: 100vh;
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  background-color: #ffeecc;
+  opacity: 40;
+  transform: translate3d(0, 0, 0);
 }
 
 @media only screen and (max-width: 963px) {
-.landing  .hero {
-height: 110vh;
-min-height: 450px;
-position: relative;
-top: 0;
-left: 0;
-/* background-color: #ffeecc; */
-opacity: 40;
-transform: translate3d(0, 0, 0);
-}
+  .landing .hero {
+    height: 110vh;
+    min-height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* background-color: #ffeecc; */
+    opacity: 40;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 @each $index, $speed, $height in (1, 20s, 136px), (2, 30s, 145px),
-(3, 55s, 158px), (4, 75s, 468px), (5, 95s, 311px), (6, 120s, 222px)
-{
-.landing  .layer-#{$index} {
-animation: parallax_fg linear $speed infinite both;
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/#{$index}.png)
-  0
-  100%
-  repeat-x;
-z-index: 1;
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: auto $height;
-opacity: 0;
+(3, 55s, 158px), (4, 75s, 468px), (5, 95s, 311px), (6, 120s, 222px) {
+  .landing .layer-#{$index} {
+    animation: parallax_fg linear $speed infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/#{$index}.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto $height;
+    opacity: 0;
+  }
 }
-}
+
 @media only screen and (max-width: 600px) {
 
 
-  .landing  .name {
-  position: relative;
-  top: 150px;
+  .landing .name {
+    position: relative;
+    top: 150px;
   }
-  
-  .landing  .name h1 {
+
+  .landing .name h1 {
     top: -69px;
     font-size: 22px;
   }
-  
-  .landing  .name p {
-  font-size: 20px;
+
+  .landing .name p {
+    font-size: 20px;
   }
-  
+
   .landing .hero {
-  height: 60vh;
+    height: 60vh;
   }
-  .landing  .layer-1 {
+
+  .landing .layer-1 {
     display: none;
   }
-  .landing  .layer-2 {
+
+  .landing .layer-2 {
     display: none;
   }
-  .landing  .layer-3 {
+
+  .landing .layer-3 {
     display: none;
   }
-  .landing  .layer-4 {
+
+  .landing .layer-4 {
     display: none;
   }
-  .landing  .layer-5 {
+
+  .landing .layer-5 {
     display: none;
   }
-  .landing  .layer-6 {
+
+  .landing .layer-6 {
     display: none;
   }
-  .landing  .bike-1 {
+
+  .landing .bike-1 {
     display: none;
   }
-  .landing  .bike-2 {
+
+  .landing .bike-2 {
     display: none;
   }
-  .landing .hero{
+
+  .landing .hero {
     background: url(../images/scn1\ \(8\).png) 0 100% repeat-x;
     height: 78vh;
     min-height: unset;
     background-size: cover;
   }
-  }
 
- 
+
+}
