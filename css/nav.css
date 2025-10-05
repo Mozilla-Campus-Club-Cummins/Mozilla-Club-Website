@@ -44,7 +44,14 @@
     color: #fff;
     font-family: "Crimson Text", serif;
     font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
+  #navbar .navbar-list li a:hover {
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
   
   .menu-icon {
     z-index: 1;
@@ -82,5 +89,6 @@
     .navbar-logo img{
       margin-left: 7%;
     }
-  }
+}
+  
   
