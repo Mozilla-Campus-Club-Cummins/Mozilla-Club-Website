@@ -1,30 +1,38 @@
 # Mozilla Campus Club Website
 
-![image](https://github.com/user-attachments/assets/b8a411e6-b2d0-4403-b90b-8fbd5c9cfc9d)
+![Image](https://github.com/user-attachments/assets/3c277aa6-6fb1-4636-b14a-a05bbbe9a0d9)
+##  About Us
+The **Mozilla Campus Club of CCEW** was formed to **promote the idea of open source** among aspiring students and encourage them to make the most of the opportunities that come along with it.  
+Our aim is to help students contribute to real-world projects while learning and growing with the community.
 
-About us :
-The Mozilla Campus Club of CCEW was formed to promote the idea of open source among aspiring students and encourage them to make the most of the opportunities that come along with it.
 
-About Repository :
-This repository was created specifically to support open-source among college students. As a result, issues might range in severity from easy to challenging.
+---
 
-Instructions for Hacktoberfest:
-• You should be a student of CCEW
 
-• One should have registered in Mozilla via the form which was sent and also on the official hacktoberfest website.
+##  About This Repository
+This repository was created specifically to **support open-source participation among all**.  
+The issues listed here will range in difficulty — from **beginner-friendly** to **advanced-level** — ensuring everyone has a fair opportunity to contribute.
 
-• A person throughout this event will be allowed a maximum of 2 PRs.
 
-• Mention your "first name last name" on your GitHub profile (If we are unable to identify you we won't accept your PR).
+---
 
-• Mention your name, your branch, and the year whole requesting to assign the issue.
 
-• Make sure the code has proper comments and indentation
+## Instructions for Hacktoberfest 2025
 
-• Any kind of spamming won't be tolerated.
 
-• If any plagiarism is found, the PR will be rejected and no further contribution will be accepted
+> Please read the following instructions carefully before contributing 
 
-• Issues will be assigned on a first-come, first-serve basis.
+- You should be registered on the **official Hacktoberfest website**.    
+- Make sure your **GitHub profile name** matches your real name (`First Name Last Name`).  
+  > If we’re unable to identify you, your PR won’t be accepted.  
+- Ensure your **code has proper comments and indentation**.  
+- **No spamming** — spam PRs will be rejected.  
+- **Plagiarism is strictly prohibited.**
+  > If plagiarism is detected, the PR will be rejected and no further contributions will be accepted.  
+- Issues will be assigned on a **first-come, first-serve basis**.  
+- Time limits:
+  -  **4 days** for easy/medium issues  
+  -  **7 days** for hard issues  
+  - If you fail to complete within the time, the issue will be reassigned to another student.
 
-• You will get a maximum of 2 days to work on that issue. If you fail to do so, the issue will be assigned to the next student.
+
