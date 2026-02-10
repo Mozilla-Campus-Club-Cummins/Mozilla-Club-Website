@@ -425,7 +425,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .navbar-list {
+  .navbar-list {
   display: none;
   flex-direction: column;
   position: absolute;
@@ -471,5 +471,69 @@ body {
     margin-top: 5px;
     font-size: 18px;
   }
+
+  .members .container1 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.members .person {
+  text-align: center;
+}
+
+.team-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.team-img:hover {
+  transform: scale(1.05);
+}
+
+.social-icon {
+  margin-top: 10px;
+}
+
+.social-icon a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,.2);
+  color: black;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.social-icon a:hover {
+  transform: translateY(-5px);
+}
+
+.divider {
+  width: 120px;
+  height: 3px;
+  background: black;
+  margin: 12px auto;
+}
+
+.members h1 {
+  font-size: 22px;
+}
+
+@media(max-width:768px){
+  .members .container1{
+    flex-direction: column;
+  }
+}
 
 }
